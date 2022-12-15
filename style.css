@@ -1,0 +1,44 @@
+body {
+    display: block !important;
+    margin: 8px !important;
+}
+
+pre{
+  display: none;
+  overflow: visible !important;
+}
+
+#slider{
+  position: relative;
+  margin: 0;
+  width: 800px;
+}
+#bottom{
+  position: absolute;
+  overflow: hidden;
+  width: 50%;
+}
+#up{
+  position: absolute;
+  z-index: -1;
+}
+#sliderInput{
+  position: relative;
+  margin: 0;
+  width: 800px;
+}
+
+button{
+  margin-top: 20px;
+}
+
+#actualArt{
+  width: fit-content;
+      height: 537px;
+    overflow: scroll;
+}
+
+.modal-body{
+  display: flex;
+  justify-content: center;
+}
